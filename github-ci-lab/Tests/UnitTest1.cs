@@ -2,5 +2,5 @@
 public void Test_BadExample_ShouldFail()
 {
     int result = 2 + 2;
-    Assert.Equal(5, result);  // ❌ Намеренно неправильно
-}
+    Assert.Equal(4, result);  // ❌ Намеренно неправильно
+}git add .

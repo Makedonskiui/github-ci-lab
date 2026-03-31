@@ -1,13 +1,6 @@
-using Xunit;
-
-namespace Tests
+[Fact]
+public void Test_BadExample_ShouldFail()
 {
-    public class UnitTest1
-    {
-        [Fact]
-        public void Test_AlwaysPasses() => Assert.True(true);
-
-        [Fact]
-        public void Test_SimpleAddition() => Assert.Equal(4, 2 + 2);
-    }
+    int result = 2 + 2;
+    Assert.Equal(5, result);  // ❌ Намеренно неправильно
 }
